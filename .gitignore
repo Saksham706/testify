@@ -1,0 +1,31 @@
+# Compiled class and binary files
+*.class
+*.out
+*.o
+*.obj
+*.exe
+*.pyc
+*.pyo
+*.pyd
+*.so
+*.dll
+*.dylib
+*.pdb
+*.idb
+*.ilk
+*.map
+a.out
+a.exe
+
+# OS and temporary files
+.DS_Store
+thumbs.db
+.workspace.json
+
+# Dependencies and build outputs
+node_modules/
+dist/
+build/
+__pycache__/
+.venv/
+.pytest_cache/
