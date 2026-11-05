@@ -15,12 +15,12 @@ app.use(express.urlencoded({ extended: true }));
 app.get("/", (req, res) => {
   res.status(200).json({
     success: true,
-    message: "Server is running successfully!",
+    message: "Server is running successfully11!",
   });
 });
 
 // Port
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 7000;
 
 // Start server
 app.listen(PORT, () => {
